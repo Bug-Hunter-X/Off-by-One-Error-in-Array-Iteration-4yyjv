@@ -1,0 +1,1 @@
+This repository demonstrates a common off-by-one error in Java when iterating over an array. The bug is in the first for loop, which attempts to access an array element beyond the valid index range, resulting in an `ArrayIndexOutOfBoundsException`.  The solution corrects this by changing the loop condition to `< arr.length`.
